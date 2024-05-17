@@ -6,9 +6,9 @@ var opcao_correta = 1
 function verificarResposta(valor) {
     if (sequencia[opcao_correta]==valor) {
         console.log("ACERTOU")
-         window.location = "cjdotrem/index.html"
+         window.location = "./cjdotrem/index.html"
     } else {
         console.log("ERROU")
-        window.location = "Tela-derrota/index.html"
+        window.location = "./Tela-derrota/index.html"
     }
 }

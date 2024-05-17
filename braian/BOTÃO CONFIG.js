@@ -6,10 +6,10 @@ var opcao_correta = 2
 function verificarResposta(valor) {
     if (sequencia[opcao_correta]==valor) {
         console.log("ACERTOU, BOA MLK 👌")
-        window.location = "evys/index.html"
+        window.location = "./evys/index.html"
     } else {
         console.log("ERROU MANÉ KKKKKK")
-        window.location = "Tela-derrota/index.html"
+        window.location = "./Tela-derrota/index.html"
     }
 }
 
