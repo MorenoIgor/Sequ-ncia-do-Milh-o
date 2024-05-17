@@ -9,6 +9,8 @@ var butao = document.querySelector("#botao")
 
 function verificarResposta(valor) {
 
+    console.log(valor)
+
     if (sequencia[opcao_correta]==valor) {
         trocar = true
         console.log("ACERTOU")
