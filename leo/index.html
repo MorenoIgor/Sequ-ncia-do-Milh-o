@@ -1,0 +1,35 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Da Cavaca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Show Da Cavaca</h1>
+        <div id="question" class="question-box"></div>
+        <div id="options" class="options-box"></div>
+        <button onclick="nextQuestion()" id="nextQuestionBtn" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <div id="gameOver" class="overlay" style="display: none;" onclick="restartGame()">
+        <button class="restart-button">Reiniciar</button>
+        <img src="coracao_partido.gif" alt="Coração Partido" width="200">
+        <h2>Game Over</h2>
+    </div>
+
+    <div id="endQuiz" class="overlay" style="display: none;">
+        <h2>Parabéns!</h2>
+        <button onclick="goToNextPage()">Próxima Página</button>
+    </div>
+
+    <div class="footer" onmouseover="showGif()">
+        <p>Feito Por: Leonardo</p>
+        <div id="gifContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
