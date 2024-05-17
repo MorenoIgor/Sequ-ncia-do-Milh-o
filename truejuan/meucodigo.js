@@ -12,7 +12,7 @@ function verificarResposta(valor) {
     if (sequencia[opcao_correta]==valor) {
         trocar = true
         console.log("ACERTOU")
-        window.location = "../wheytor/index.html"
+        window.location = "../leo/index.html"
     }
     else {
         console.log("ERROU")
