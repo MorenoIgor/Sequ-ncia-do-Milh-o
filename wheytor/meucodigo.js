@@ -6,9 +6,9 @@ var opcao_correta = 4
 function verificarResposta(valor) {
     if (sequencia[opcao_correta]==valor) {
         console.log("ACERTOU")
-        window.location = "/lucascachorro/index.html"
+        window.location = "lucascachorro/index.html"
     } else {
         console.log("ERROU")
-        window.location = "/Tela-derrota/index.html"
+        window.location = "Tela-derrota/index.html"
     }
 }
