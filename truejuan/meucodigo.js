@@ -12,11 +12,11 @@ function verificarResposta(valor) {
     if (sequencia[opcao_correta]==valor) {
         trocar = true
         console.log("ACERTOU")
-        window.location = "../truejuan/index.html"
+        window.location = "../wheytor/index.html"
     }
     else {
         console.log("ERROU")
-        
+        window.location = "../Tela-derrota/index.html"
     }
 
     if (trocar == true) {
@@ -24,8 +24,7 @@ function verificarResposta(valor) {
     }
     else {
         butao.style.backgroundColor = "red"
-        window.location = "../Tela-derrota/index.html"
-    }  
+    }
  
 }
 
