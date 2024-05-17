@@ -2,8 +2,6 @@ var sequencia = [1,2,3,4]
 //A sequência é de dois em dois
 var opcao_correta = 2
 
-var btnc = document.querySelector("#botao3")
-btnc.addEventListener("click", verificarResposta)
 var trocar = false
 var butao = document.querySelector("#botao")
 
